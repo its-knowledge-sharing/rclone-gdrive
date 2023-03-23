@@ -183,7 +183,7 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: genuine-dev-genuine-doc
+                name: demo-genuine-doc
                 port: 
                   name: http
 ---
