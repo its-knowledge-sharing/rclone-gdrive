@@ -191,7 +191,7 @@ apiVersion: v1
 kind: Secret
 metadata:
   name: rclone-config
-data:
+stringData:
   rclone.conf: |
     [GoogleDriveNAp]
     type = drive
